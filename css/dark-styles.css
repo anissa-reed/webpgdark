@@ -1,0 +1,390 @@
+/***************Color Palette************************
+
+Electric Pink: #fa0075;
+Black: #1f202b;
+White: #ffffff;
+Light Grey: #b7b7b7 
+
+
+
+****************************************************/
+
+
+/************Fonts************************************
+ Primary Heading 
+  - Cinzel Decorative
+      font family: 'Cinzel Decorative', cursive;
+ 
+  Heading Substitles & subheadings 
+    - Raleway
+            font family: 'Raleway', sans-serif;
+ 
+ Paragraphs
+    - Montserrat Alternatives 
+         font family: 'Montserrat Alternatives', sans-serif;
+
+**************************************************************/
+
+
+/*******************Base Styles******************************/ 
+
+  body { 
+      background-color: #1f202b;
+      color: #ffffff;
+      font-family: 'Montserrat Alternatives', sans-serif;
+
+  }
+
+
+
+/*********************Grid************************************/
+
+  .full-width { 
+      margin: 0 auto;
+      width: 1200px;
+
+  }
+
+  .half-width { 
+      float: left; 
+      width: 600px;
+
+  }
+
+  .third-width {
+      float: left;
+      width:  400px;
+
+  }
+
+
+/********************Header*********************************/
+
+
+
+    header h1 {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 28px;
+      font-variant: small-caps;
+      float: left;
+      padding: 5px;
+      word-spacing: 2px;
+  }
+
+  nav {
+      float: right; 
+      padding: 15px 10px;
+  }
+
+  nav ul li {
+      display: inline-block;
+
+  }
+
+  nav ul li a {
+      color: #ffffff;
+      font-family: 'Cinzel Decorative', cursive;
+      font-variant: small-caps; 
+      font-size: 22px; 
+      padding-left: 45px; 
+      text-decoration: none;
+      
+     
+  }
+
+   #hero-header {
+    background: url("../dark-img/hero-background.png");
+    background-size: cover;
+    clear: both;
+    height: 800px;
+
+   }
+   
+
+   #hero-header #hero-text {
+       padding-top: 290px;
+   }
+
+  #hero-header h2 {
+      clear: both;
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 63px; 
+      line-height: 80px;
+      padding: 20px 0 20px 25px;
+      width: 600px;
+      
+  }
+
+   #hero-text h2 {
+       margin-left: 75px;
+  }
+
+  #hero-header h2 span {
+      color:  #fa0075;
+  }
+
+/********************Work************************************/
+
+   #work {
+       height: 1550px;
+   }
+
+   #work h3 {
+       color:  #fa0075;
+       font-family:'Raleway', sans-serif; 
+       font-size: 39px;
+       margin: 40px 0 90px 480px;
+       text-transform: lowercase;
+
+   } 
+
+   
+
+             /********Rogue******/
+   
+   #main-img {
+        border: 1px solid #b7b7b7;
+    
+   }
+
+    #work #rogue-text{
+        padding-bottom: 85px;
+
+   }
+
+   #rogue-text h4 {
+       font-family: 'Raleway', sans-serif;
+       font-size: 21px;
+       font-weight: 300; 
+       margin: 0 auto;
+       padding: 0 5px 0 65px; 
+      
+       
+   }
+
+
+    #rogue-text h4 span { 
+       font-weight: 900;
+       font-size: 24px;
+   }
+
+   #rogue-text p {
+       font-size: 19px; 
+       line-height: 25px;
+       padding: 30px 60px 65px;
+       text-align: left;
+   }
+
+
+              /******Jubilee******/
+
+   #jubilee-text {
+       clear: both;
+   }
+
+   #jubilee-text h4 {
+       font-family: 'Raleway', sans-serif;
+       font-size: 21px;
+       font-weight: 300;
+       padding-right: 37px;
+       text-align: right;
+   }
+
+   #jubilee-text h4 span {
+       font-weight: 900;
+       font-size: 24px;
+       padding-top: 40px;
+
+   }
+
+   #jubilee-text p {
+       font-size: 19px;
+       line-height: 25px;
+       padding-right: 35px;
+       text-align: right;
+   }
+
+   #work #jubilee-icon {
+       margin: 0 auto;
+       padding: 30px 0 0 65px;
+   }
+
+
+            /*******Holstee*******/
+
+    #work #holstee-icon {
+        clear: both;
+        margin: 0 auto;
+        padding: 130px 0 0 8px;
+
+    }
+
+    #holstee-text h4 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 21px; 
+        font-weight: 300;
+        padding: 95px 0 0 65px;
+
+    }
+
+
+    #holstee-text h4 span {
+        font-weight: 900;
+        font-size: 24px;
+
+    }
+
+    #holstee-text p {
+        font-size: 19px;
+        line-height: 25px;
+        padding: 0 20px 0 65px;
+        text-align: left;
+
+    }
+
+/*******************About************************************/
+
+   #about {
+         background: url("../dark-img/about-dark-me.png");
+         background-size: cover;
+         height: 550px;
+       
+        
+   }
+
+    #about h3 {
+        color:#fa0075;
+        font-family: 'Raleway', sans-serif;
+        font-size: 39px;
+        padding-top: 45px; 
+        margin: 35px 0 35px 510px;
+        text-transform: lowercase;
+
+    }
+
+    #about p {
+        color: #1f202b;
+        font-size: 19px;
+        line-height: 28px;
+        margin: 0 auto;
+        padding-bottom: 17px;
+        
+    }
+
+    #about p span {
+        font-weight: 800;
+    }
+
+/*******************Contact**********************************/
+
+  #contact {
+      height: 400px;
+  }
+
+  #contact h3 {
+      color: #fa0075;
+      font-family: 'Raleway', sans-serif;
+      font-size: 39px;
+      padding-top: 45px;
+      margin: 40px 0 45px 490px;
+      text-transform: lowercase;
+
+  }
+
+
+  #contact h4 {
+      font-size: 24px;
+      font-weight: 800;
+  }
+
+  
+
+                /****Email*****/
+
+#contact #email-header {
+      padding-left: 100px;
+
+  }
+
+  #contact a {
+      color:  #ffffff;
+      font-size: 18px;
+      padding-left: 20px;
+      text-decoration: none;
+    
+  }
+
+
+#contact #dark-envelope {
+      color: #fa0075;
+      font-size: 28px;
+      padding-right: 10px;
+     
+     
+ } 
+
+
+           /******Social Media*****/
+
+
+#contact #socialmedia-header {
+      padding-left: 130px;
+  }       
+
+ #contact ul {
+     clear: both;
+     list-style: none;
+     padding-left: 70px;
+ }
+
+ #contact ul li {
+     display: inline-block;
+     padding-right: 10px;
+ }
+
+        /******Meet-Up**********/
+
+#contact #meet-header {
+    padding-left: 160px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+        /*****Light Button*****/
+
+.btn {
+    background-color: #fa0075; 
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 60px 0 0 200px;
+    padding: 15px 17px;
+    text-align: center;
+} 
+
+.fa-sun {
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+
+
+/**********Copyright************/
+
+#copy {
+    clear: both;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 0 auto;
+    padding-left: 540px;
+}
+
+
+
+
