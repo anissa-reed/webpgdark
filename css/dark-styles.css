@@ -342,6 +342,12 @@ Light Grey: #b7b7b7
      padding-right: 10px;
  }
 
+ #contact h5 {
+     font-size: 12px;
+     font-style: italic;
+     padding-left: 35px;
+ }
+
         /******Meet-Up**********/
 
 #contact #meet-header {
